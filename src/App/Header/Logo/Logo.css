@@ -1,0 +1,27 @@
+.logo{
+	font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    text-decoration: none;	
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+   .logo{
+    font-size: 18px;
+    margin-left: -15px;
+    } 
+}
+@media (min-width: 992px) {
+    .logo{
+		font-size: 20px;
+		margin-left: 0;
+	}
+}
+@media (min-width: 1200px) {
+    .logo{
+		font-size: 20px;
+		margin-left: 0;
+	}
+}

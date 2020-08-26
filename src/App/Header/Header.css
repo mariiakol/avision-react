@@ -1,0 +1,14 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	width: 100%;
+	background-color: #bad7ea;
+	z-index: 100;
+}
+@media (max-width: 767px){
+	.header{
+		height: 40px;;
+	}
+}
