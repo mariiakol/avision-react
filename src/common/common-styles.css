@@ -43,10 +43,6 @@ body {
 .col-md-12{
 	width: 100%;
 }
-#section1 {
-	/* background-image: url("images/home_slider.jpg"); */
-	background-position: center;
-}
 #section2{
 	background-color: #f7f7f7;
 	padding: 80px 0;
@@ -63,7 +59,10 @@ body {
 	display: flex;
 	justify-content: flex-end;
 }
-
+.container-row{
+	display: flex;
+	flex-direction: row;
+}
 @media (max-width: 767px){
 	.container{
 		max-width: 300px;
@@ -87,10 +86,6 @@ body {
 	}
 	.col-md-9{
 		width: 100%;
-	}
-	.container-row-mobile{
-		display: flex;
-		flex-direction: column;
 	}
 	.horizontal-center{
 		align-items: flex-start;

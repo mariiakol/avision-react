@@ -28,9 +28,6 @@
     .menu li {
 		margin: 0 5px 0 5px;
 	}
-	.menu{
-		margin-left: -35px;
-	}
 }
 @media (min-width: 992px) {
     .menu li {

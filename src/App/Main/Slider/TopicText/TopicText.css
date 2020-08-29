@@ -1,0 +1,28 @@
+.topic-text{
+	font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1.27;
+}
+@media (max-width: 767px){
+    .topic-text{
+		font-size: 30px;
+	}
+}
+@media (min-width: 768px) {
+    .topic-text{
+		font-size: 28px;
+	}
+}
+@media (min-width: 992px) {
+    .post{
+		margin-top: 115px;
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 1200px) {
+    .topic-text{
+		font-size: 36px;
+	}
+}

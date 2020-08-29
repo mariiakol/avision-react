@@ -1,0 +1,31 @@
+.next-post{
+	width: 375px;
+    height: 240px;
+    cursor: pointer;
+    background-image: url("./home_slider_next.jpg");
+    margin-left: 39px;
+}
+@media (max-width: 767px){
+    .next-post{
+		width: 270px;
+		height: 210px;
+		margin-left: 0;
+	}
+}
+@media (min-width: 768px){
+    .next-post {
+        width: 270px;
+    }
+}
+@media (min-width: 992px) {
+	.next-post{
+		width: 315px;
+		height: 240px;
+    }
+}
+@media (min-width: 1200px) {
+	.next-post{
+		width: 375px;
+		height: 240px;
+    }
+}
