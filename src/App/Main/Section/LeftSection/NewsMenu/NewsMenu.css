@@ -1,0 +1,149 @@
+.topmenu, .submenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.topmenu ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.topmenu{
+  display: flex;
+  flex-direction: row;
+}
+.topmenu > li {
+  position: relative;
+  width: auto;
+  height: 28px;
+  background: #ededed;
+  border-radius: 14px;
+  text-align: center;
+  margin-left: 5px;
+}
+.topmenu > li:last-child {
+  background-color: #f7f7f7;
+}
+.topmenu > li:last-child:hover {
+  background-color: #f7f7f7;
+}
+.topmenu > li > a {  
+    display: block;
+    line-height: 28px;
+    width: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+}
+.topmenu > li:hover{
+    background-color: white;
+}
+.submenu a:hover {
+    color: black;
+    background-color: white;
+}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+  color: inherit;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  background: white;
+  visibility: hidden;
+  opacity: 0; 
+  right: 0;
+  transform: rotateX(-90deg);
+  transition: .3s linear; 
+  padding: 23px 60px 23px 29px;
+  background-color: white;
+}
+.submenu li {
+  position: relative;
+  right: 0;
+  color: rgba(0,0,0,0.4);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 5px;
+  width: 110px;
+}
+.submenu li:hover{
+  color: black;
+}
+.submenu .submenu {
+  position: absolute;
+  top: -1px;
+  transition: .3s linear;
+}
+.topmenu li:hover > .submenu{
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+.drop{
+  height: 50px;
+}
+.drop::after{
+	display: block;
+  position: absolute;
+  top: 48%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  content: '▾';
+}
+.drop:hover::after {
+  content: '▴';
+}
+@media (max-width: 767px) {
+  .topmenu{
+		width: 100%;
+		overflow-x: scroll;
+    margin-bottom: 30px;
+    overflow-y: hidden;
+	}
+	.topmenu > li > a {
+		display: table-cell;
+		vertical-align: middle;
+		height: 30px;
+		line-height: 1;
+		font-size: 9px;
+	}
+}
+@media (min-width: 768px) {
+    .topmenu > li > a {
+		font-size: 8px;
+	}
+}
+@media (min-width: 992px) {
+    .topmenu > li > a {
+		font-size: 11px;
+	}
+}
+@media (min-width: 1200px) {
+    .topmenu > li > a {
+		font-size: 11px;
+	}
+}
