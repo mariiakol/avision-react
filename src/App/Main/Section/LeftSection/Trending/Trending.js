@@ -34,7 +34,7 @@ const Trending = () => {
                 </div>
             </div>
             <div className = "row">
-                <div className = "news-list minus-top">
+                <div className = "news-list1 minus-top">
                     <div className = "column">
                         <div className = "big-post-w-img">
                             <p className = "small-post-title padding-post white">How did Van Gogh's Turbulent Mind Depict One of the Most Complex Concepts in Physics?</p>
@@ -55,13 +55,6 @@ const Trending = () => {
                         </div>
                         <p className = "question question-w-bg">How did Van Gogh's Turbulent Mind Depict Concepts in Physics?</p>
                     </div>
-                </div>
-            </div>
-            <div className = "row">
-                <div className = "posts">
-                    <div className = "post post-margin">How did Van Gogh's Turbulent Mind Depict Concepts in Physics?</div>
-                    <div className = "post post-margin">How did Van Gogh's Turbulent Mind Depict Concepts in Physics?</div>
-                    <div className = "post post-margin">How did Van Gogh's Turbulent Mind Depict Concepts in Physics?</div>
                 </div>
             </div>
         </div>
