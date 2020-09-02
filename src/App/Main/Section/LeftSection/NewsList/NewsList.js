@@ -6,7 +6,7 @@ import './NewsList.css'
 
 const NewsList = () => {
     return (
-        <div>
+        <div className = "width100">
             <div className = "row">
                 <div className = "news-list">
                         <div className = "big-post">

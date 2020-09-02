@@ -1,6 +1,7 @@
 import React from 'react'
 import LeftPartFooter from './LeftPartFooter/LeftPartFooter.js'
 import './Footer.css'
+import RightPartFooter from './RightPartFooter/RightPartFooter.js'
 
 const Footer = () => {
     return (
@@ -10,7 +11,9 @@ const Footer = () => {
                         <div className = "col-md-9 footer-width">
                             <LeftPartFooter/>
                         </div>
-                        <div className = "col-md-3 footer-width"></div>
+                        <div className = "col-md-3 footer-width">
+                            <RightPartFooter/>
+                        </div>
                 </div>
             </div> 
         </footer>

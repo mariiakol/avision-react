@@ -1,5 +1,6 @@
 import React from 'react'
 import LeftSection from './LeftSection/LeftSection'
+import RightSection from './RightSection/RightSection'
 import '../../../common/style/reset.css'
 import '../../../common/common-styles.css'
 import './Section.css'
@@ -14,7 +15,7 @@ const Section  = () => {
                             <LeftSection/>
                         </div>
                         <div className = "col-md-3 center">
-                            {/* <RightSection/> */}
+                            <RightSection/>
                         </div>
                     </div>
                 </div> 

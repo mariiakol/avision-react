@@ -4,6 +4,9 @@
 	justify-content: space-between;
 	width: 100%;
 }
+.width100{
+	width: 100%;
+}
 .big-post{
 	width: 555px;
 	margin-top: 30px;

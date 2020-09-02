@@ -7,7 +7,7 @@ import image15 from './post_15.jpg'
 
 const LatestArticles = () => {
     return (
-        <div className = "padding nl">
+        <div className = "padding">
             <div className = "row">
                 <div className = "col-md-3">
                     <div className = "news">Latest Articles</div>

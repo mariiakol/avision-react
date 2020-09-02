@@ -1,0 +1,39 @@
+.black-bg {
+    background-color: black;
+    width: 375px;
+    padding-bottom: 20px;
+    margin-left: 3px;
+}
+
+.content1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+@media (max-width: 767px) {
+    .black-bg {
+        width: 100%;
+    }
+    .content, .content1 {
+        padding-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .black-bg {
+        width: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .black-bg {
+        width: 100%;
+        margin-left: 17px;
+    }  
+}
+@media (min-width: 1200px) {
+    .black-bg {
+        width: 375px;
+        margin-left: 3px;
+    }
+}
+
+
