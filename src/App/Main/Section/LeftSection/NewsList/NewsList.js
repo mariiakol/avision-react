@@ -1,4 +1,6 @@
 import React from 'react'
+import News from '../News/News'
+import NewsMenu from '../NewsMenu/NewsMenu.js'
 import image1 from './post_1.jpg'
 import image2 from './post_2.jpg'
 import image3 from './post_3.jpg'
@@ -7,6 +9,16 @@ import './NewsList.css'
 const NewsList = () => {
     return (
         <div className = "width100">
+            <div className = "row row-menu">
+                <div className = "col-md-3">
+                    <News
+                        title = "Don't Miss"
+                    />
+                </div>
+                <div className = "col-md-9">
+                    <NewsMenu/>
+                </div>
+            </div>
             <div className = "row">
                 <div className = "news-list">
                         <div className = "big-post">

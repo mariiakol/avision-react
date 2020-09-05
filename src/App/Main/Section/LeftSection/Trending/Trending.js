@@ -2,6 +2,7 @@ import React from 'react'
 import image5 from './post_5.jpg'
 import image9 from './post_9.jpg'
 import './Trending.css'
+import News from '../News/News'
 
 const Trending = () => {
     return (
@@ -9,8 +10,9 @@ const Trending = () => {
             <div className = "padding">
                 <div className = "row row-menu">
                     <div className = "col-md-3">
-                        <div className = "news">What's Trending</div>
-                        <div className = "line"></div>
+                        <News
+                            title = "Trending"
+                        />
                     </div>
                     <div className = "col-md-9">
                         <div className = "news-categories">

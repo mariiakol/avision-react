@@ -11,14 +11,6 @@ import LatestArticles from './LatestArticles/LatestArticles'
 const LeftSection = () => {
     return (
         <div>
-            <div className = "row row-menu">
-                <div className = "col-md-3">
-                    <News/>
-                </div>
-                <div className = "col-md-9">
-                    <NewsMenu/>
-                </div>
-            </div>
             <div  className = "row">
                 <NewsList/>
             </div> 

@@ -4,14 +4,16 @@ import image10 from './post_10.jpg'
 import image13 from './post_13.jpg'
 import image14 from './post_14.jpg'
 import image15 from './post_15.jpg'
+import News from '../News/News'
 
 const LatestArticles = () => {
     return (
         <div className = "padding">
             <div className = "row">
                 <div className = "col-md-3">
-                    <div className = "news">Latest Articles</div>
-                    <div className = "line"></div>
+                    <News
+                        title = "Latest Articles"
+                    />
                 </div>
             </div>
             <div className = "row">

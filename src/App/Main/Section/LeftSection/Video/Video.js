@@ -1,12 +1,14 @@
 import React from 'react'
+import News from '../News/News'
 
 const Video = () => {
     return (
         <div className = "padding">
             <div className = "row">
                 <div className = "col-md-3">
-                    <div className = "news">Most Popular Videos</div>
-                    <div className = "line"></div>
+                <News
+                        title =  "Most Popular Videos"
+                    />
                 </div>
             </div>
             <div className = "video-container row">
