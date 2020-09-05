@@ -12,11 +12,13 @@ const StoriesList = () => {
                             id,
                             name,
                             date,
+                            image
                         }) => (
                             <div key = {id}>
                                 <StoriesListItem
                                     name = {name}
                                     date = {date}
+                                    image = {image}
                                 /> 
                             </div>
                             

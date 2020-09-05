@@ -2,14 +2,16 @@ import React from 'react'
 import './StoriesListItem.css'
 
 const StoriesListItem = ({
-    name, date
+    name, 
+    date,
+    image
 }) => {
     return (
         <div className = "side-post">
             <div className = "row">
                 <div className = "col-md-3">
                     <div className = "side-post-image">
-                        <img src="images/top_1.jpg"/>
+                        <img src={image}/>
                     </div>
                 </div>
                 <div className = "col-md-9">
