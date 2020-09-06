@@ -1,8 +1,10 @@
 import React from 'react'
-import './RightSection.css'
 import Advert from './Advert/Advert.js'
 import Mind from './Mind/Mind'
 import TopStories from './TopStories/TopStories'
+import NewestVideos from './NewestVideos/NewestVideos'
+import FutureEvents from './FutureEvents/FutureEvents'
+import './RightSection.css'
 
 const RightSection = () => {
     return (
@@ -10,9 +12,6 @@ const RightSection = () => {
             <div className = "post-bg">
                 <div className = "sidebar">
                     <div className = "sidebar-bg">
-                        {/* <div className = "row">
-                            <div className = "news news-margin">Top Stories</div>
-                        </div> */}
                         <div className = "row">
                             <TopStories/>
                         </div>
@@ -20,7 +19,13 @@ const RightSection = () => {
                             <Advert/>
                         </div>
                         <div className = "row">
+                            <NewestVideos/>
+                        </div>
+                        <div className = "row">
                             <Mind/>
+                        </div>
+                        <div className = "row">
+                            <FutureEvents/>
                         </div>
                     </div>
                 </div>
