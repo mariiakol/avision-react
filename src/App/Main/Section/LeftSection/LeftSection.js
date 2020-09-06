@@ -11,14 +11,14 @@ import LatestArticles from './LatestArticles/LatestArticles'
 const LeftSection = () => {
     return (
         <div>
-            <div  className = "row">
+            <div className = "row">
                 <NewsList/>
             </div> 
             <div className = "row">
                 <Trending/>
             </div>
             <div className = "row">
-                {/* <Video/> */}
+                <Video/>
             </div>
             <div className = "row">
                 <LatestArticles/>

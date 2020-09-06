@@ -1,5 +1,7 @@
 import React from 'react'
 import News from '../News/News'
+import './Video.css'
+import VideosList from './VideosList'
 
 const Video = () => {
     return (
@@ -15,6 +17,7 @@ const Video = () => {
                 <div className = "video">
                     <iframe width="590" height="500" src="https://www.youtube.com/embed/UjYemgbhJF0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
+                <VideosList/>
             </div>
         </div>
     )

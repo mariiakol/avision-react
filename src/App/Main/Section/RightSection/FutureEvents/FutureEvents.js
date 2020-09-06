@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../Title/Title'
+import FutureEventsList from './FutureEventsList'
 
 const FutureEvents = () => {
     return (
@@ -7,6 +8,7 @@ const FutureEvents = () => {
             <Title
                 title = "Future Events"
             />
+            <FutureEventsList/>
         </div>
     )
 }

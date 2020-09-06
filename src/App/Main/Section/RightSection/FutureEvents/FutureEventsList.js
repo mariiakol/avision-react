@@ -1,10 +1,31 @@
 import React from 'react'
+import FutureEventsListItem from './FutureEventsListItem'
+import FutureEventsData from './FutureEventsData'
 
 const FutureEventsList = () => {
     return (
-        <div class = "news-list">
-			<div class = "column">
-                
+        <div className = "news-list">
+			<div className = "column">
+                {
+                    FutureEventsData.map(({
+                        id,
+                        day,
+                        month,
+                        name,
+                        date,
+                        image
+                    }) => (
+                        <div key = {id}>
+                            <FutureEventsListItem
+                                day = {day}
+                                month = {month}
+                                name = {name}
+                                date = {date}
+                                image = {image}
+                            />
+                        </div>
+                    ))
+                }
             </div>
         </div>
     )
