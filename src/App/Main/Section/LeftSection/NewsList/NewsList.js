@@ -1,9 +1,9 @@
 import React from 'react'
 import News from '../News/News'
 import NewsMenu from '../NewsMenu/NewsMenu.js'
-import image1 from './post_1.jpg'
-import image2 from './post_2.jpg'
-import image3 from './post_3.jpg'
+import image1 from '../../../../../common/srcimages/post_1.jpg'
+import image2 from '../../../../../common/srcimages/post_2.jpg'
+import image3 from '../../../../../common/srcimages/post_3.jpg'
 import './NewsList.css'
 
 const NewsList = () => {

@@ -1,5 +1,5 @@
 .big-post-w-img{
-	background-image: url("./post_8.jpg");
+	background-image: url("../../../../../common/srcimages/post_8.jpg");
 	width: 555px;
 	border-radius: 6px;
 	margin-top: 30px;
@@ -14,7 +14,7 @@
 	margin: 30px 0 0 20px;
 }
 .question-w-bg{
-	background-image: url("./post_6.jpg");
+	background-image: url("../../../../../common/srcimages/post_6.jpg");
 	margin-left: 20px;
 	color: white;
 }

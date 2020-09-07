@@ -1,9 +1,9 @@
 import React from 'react'
 import './LatestArticles.css'
-import image10 from './post_10.jpg'
-import image13 from './post_13.jpg'
-import image14 from './post_14.jpg'
-import image15 from './post_15.jpg'
+import image10 from '../../../../../common/srcimages/post_10.jpg'
+import image13 from '../../../../../common/srcimages/post_13.jpg'
+import image14 from '../../../../../common/srcimages/post_14.jpg'
+import image15 from '../../../../../common/srcimages/post_15.jpg'
 import News from '../News/News'
 
 const LatestArticles = () => {

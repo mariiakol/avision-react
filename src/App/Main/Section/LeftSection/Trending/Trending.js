@@ -1,6 +1,6 @@
 import React from 'react'
-import image5 from './post_5.jpg'
-import image9 from './post_9.jpg'
+import image5 from '../../../../../common/srcimages/post_5.jpg'
+import image9 from '../../../../../common/srcimages/post_9.jpg'
 import './Trending.css'
 import News from '../News/News'
 

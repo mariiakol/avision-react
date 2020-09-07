@@ -17,7 +17,7 @@
     padding: 0 10px 0 20px;
 }
 .advert {
-    background-image: url(./post_17.jpg);
+    background-image: url("../../../../../common/srcimages/post_17.jpg");
     height: 260px;
     width: 240px;
     position: relative;
