@@ -1,13 +1,16 @@
 import React from 'react'
-import Slider from './Slider/Slider.js'
-import Section from './Section/Section.js'
 import './Main.css'
+import { Route } from 'react-router-dom'
+import BlogPage from './BlogPage/BlogPage.js'
+import MainContent from './MainContent/MainContent.js'
 
 const Main = () => {
     return(
         <div>
-            <Slider/>
-            <Section/>
+            <Route path = "/" exact render = {() => (
+                <MainContent/>
+            )}/>
+            <Route path = "/BlogPage" component = {BlogPage}/>
         </div>
     )
 }

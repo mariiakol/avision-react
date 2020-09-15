@@ -1,0 +1,54 @@
+.author-information{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.author-information img {
+	border-radius: 100px;
+	border: 5px solid white;
+}
+.meta{
+	margin-left: 10px;
+	font-family: 'Ubuntu', sans-serif;
+    color: rgba(0,0,0,0.25);
+    font-size: 14px;
+    font-weight: 500;
+}
+.author{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.share, .share-menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.share-menu li{
+	margin: 0 10px 0 10px;
+	font-size: 14px;
+}
+.share-text{
+	margin-left: 10px;
+	font-family: 'Ubuntu', sans-serif;
+    color: rgba(0,0,0,0.25);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+.fa-facebook {
+    color: #3b5999;
+}
+.fa-twitter {
+    color: #55acee;
+}
+.fa-google {
+    color: #dd4b39;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-google:hover{
+	color: #b9b9b9;
+}

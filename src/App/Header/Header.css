@@ -7,8 +7,11 @@
 	background-color: #bad7ea;
 	z-index: 100;
 }
+.class-header{
+	height: 66px;
+}
 @media (max-width: 767px){
-	.header{
-		height: 40px;;
+	.header, .class-header{
+		height: 40px;
 	}
 }

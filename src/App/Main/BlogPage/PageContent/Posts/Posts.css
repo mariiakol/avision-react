@@ -1,0 +1,12 @@
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row-tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}

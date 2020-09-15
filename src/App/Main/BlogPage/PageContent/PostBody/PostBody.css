@@ -1,0 +1,53 @@
+.post-body{
+	background-color: white;
+	border-radius: 6px;
+	padding-left: 69px;
+    padding-top: 59px;
+    padding-right: 100px;
+    padding-bottom: 45px;
+}
+.posttext{
+	font-size: 16px;
+    line-height: 1.875;
+    color: rgba(0,0,0,0.8);
+}
+.post-body figure{
+	margin: 40px 0 43px;
+}
+figure{
+    text-align: center;
+}
+.post-body figcaption {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.3);
+    text-align: center;
+    margin-top: 8px;
+}
+.post-tags {
+    margin-top: 40px;
+}
+.post-tags ul {
+	display: flex;
+	flex-direction: row;
+}
+.post-tags a{
+	display: block;
+    line-height: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 500;
+    text-decoration: none;
+    height: 24px;
+    border: solid 1px #d7d7d7;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+.post-tags a:hover{
+	background: #ededed;
+    border-color: #ededed;
+}

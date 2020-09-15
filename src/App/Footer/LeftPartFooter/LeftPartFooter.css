@@ -35,6 +35,12 @@
 .footer-menu a:hover{
 	color: pink
 }
+.grey{
+    color: #8f8f8f;
+}
+.grey:hover{
+	color: pink;
+}
 @media (max-width: 767px){
     .footer-row{
 		display: flex;
