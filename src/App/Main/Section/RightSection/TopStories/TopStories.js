@@ -30,39 +30,8 @@ export default class SimpleSlider extends Component {
                 <div>
                     <StoriesList/>
                 </div>
-                {/* <div className = "slider-color">
-                  <h3>1</h3>
-                </div>
-                <div className = "slider-color-white">
-                  <h3>2</h3>
-                </div>
-                <div className = "slider-color">
-                  <h3>3</h3>
-                </div>
-                <div className = "slider-color-white">
-                  <h3>4</h3>
-                </div>
-                <div className = "slider-color">
-                  <h3>5</h3>
-                </div>
-                <div className = "slider-color-white">
-                  <h3>6</h3>
-                </div> */}
               </Slider>
             </div>
           );
     }
 }
-
-// const TopStories = () => {
-//     return (
-//         <div>
-//             <Title
-//                 title = "Top Stories"
-//             />
-//             <StoriesList/>
-//         </div>
-//     )
-// }
-
-//export default TopStories
