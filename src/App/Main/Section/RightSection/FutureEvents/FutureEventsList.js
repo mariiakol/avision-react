@@ -4,7 +4,7 @@ import FutureEventsData from './FutureEventsData'
 
 const FutureEventsList = () => {
     return (
-        <div className = "news-list">
+        <div className = "news-list margin-list">
 			<div className = "column">
                 {
                     FutureEventsData.map(({

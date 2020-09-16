@@ -4,7 +4,7 @@ import NewestVideosData from './NewestVideosData'
 
 const NewestVideosList = () => {
     return (
-        <div className = "news-list">
+        <div className = "news-list margin-list">
 			<div className = "column">
                 {
                     NewestVideosData.map(({
