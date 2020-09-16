@@ -51,3 +51,47 @@ figure{
 	background: #ededed;
     border-color: #ededed;
 }
+@media (max-width: 767px) {
+    figure img {
+        width: 250px;
+    }
+    .post-body {
+        padding: 20px 20px;
+        width: 270px;
+    }
+    .post-tags ul li a {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .post-tags a {
+        margin-right: 0;
+    }
+    .post-tags ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) {
+    .post-body {
+        padding-right: 29px;
+    }
+    figure img {
+        width: 555px;
+    }
+}
+@media (min-width: 992px) {
+    .post-body {
+        padding-right: 100px;
+    }
+    figure img {
+        width: 712px;
+    }
+}
+@media (min-width: 1200px) {
+    .post-body {
+        padding-right: 100px;
+    }
+    figure img {
+        width: 712px;
+    }
+}

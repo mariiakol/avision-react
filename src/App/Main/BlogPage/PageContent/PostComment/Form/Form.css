@@ -46,3 +46,9 @@
 	background: rgba(45,223,128,1);
     color: #FFFFFF;
 }
+@media(max-width:767px) {
+    input[type="text"] {
+        width: 210px;
+        margin-bottom: 10px;
+    }
+}

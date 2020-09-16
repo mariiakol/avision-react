@@ -1,4 +1,5 @@
 import React from 'react'
+import './Posts.css'
 
 const PostListItem = ({
     title,
@@ -7,7 +8,7 @@ const PostListItem = ({
     image
 }) => {
     return (
-        <div className = "small-post-with-photo">
+        <div className = "small-post-with-photo width-post">
             <img src={image}/>
             <p className = "small-post-title padding-post">{title}</p>
             <p className = "post-information padding-post"><span className = "author-in-post">{author} </span> • {date}</p>

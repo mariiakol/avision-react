@@ -6,7 +6,7 @@ const CommentsContent = () => {
     return (
         <div className = "comment-body">
             <div className = "row">
-                <div className = "author">
+                <div className = "author-post">
                     <div className = "author-information">
                         <img src={comment_author}/>
                         <div className = "meta">Katy Liu <span>Sep 29, 2017 at 9:48 am</span></div>

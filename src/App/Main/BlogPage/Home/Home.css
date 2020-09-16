@@ -12,7 +12,7 @@
 .topic-title{
     margin-top: 0;
 }
-.post-title{
+.post-title-home{
     font-size: 24px;
     color: #FFFFFF;
     font-weight: 500;
@@ -20,4 +20,9 @@
     width: 440px;
     text-align: center;
     line-height: 1.3;
+}
+@media (max-width: 767px){
+    .topic-text {
+        font-size: 22px;
+    }
 }

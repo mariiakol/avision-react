@@ -4,11 +4,10 @@ import './Author.css'
 
 const Author = () => {
     return (
-        <div className = "container">
             <div className = "container-row row">
                 <div className = "padding-page width100">
                    <div className = "row">
-                        <div className = "author">
+                        <div className = "author-post">
                             <div className = "author-information">
                                 <img src={author} />
                                 <div className = "meta">Katy Liu <span>Sep 29, 2017 at 9:48 am</span></div>
@@ -25,7 +24,6 @@ const Author = () => {
                     </div> 
                 </div>
                 </div>
-            </div>
     )
 }
 

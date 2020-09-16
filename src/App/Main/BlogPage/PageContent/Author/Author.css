@@ -14,7 +14,7 @@
     font-size: 14px;
     font-weight: 500;
 }
-.author{
+.author-post{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -51,4 +51,19 @@
 }
 .fa-facebook:hover, .fa-twitter:hover, .fa-google:hover{
 	color: #b9b9b9;
+}
+@media(max-width: 767px) {
+	.author-post {
+		flex-direction: column;
+	}
+	.share {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.meta{
+		font-size: 13px;
+	}
 }

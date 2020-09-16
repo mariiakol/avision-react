@@ -31,3 +31,8 @@
 .comments{
 	padding-bottom: 30px;
 }
+@media (max-width: 767px) {
+    .post-form, .comment-body {
+        width: 270px;
+    }
+}

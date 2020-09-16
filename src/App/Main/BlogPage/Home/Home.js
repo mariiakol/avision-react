@@ -15,7 +15,7 @@ const Home = () => {
                 </div>
                 <div className = "row">
                     <div className = "center">
-                        <div className = "post-title">
+                        <div className = "post-title-home">
                             <TopicText/>
                         </div>
                     </div>
