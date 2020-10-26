@@ -1,10 +1,9 @@
 import React from 'react'
 import News from '../News/News'
 import NewsMenu from '../NewsMenu/NewsMenu.js'
-import image1 from '../../../../../common/srcimages/post_1.jpg'
-import image2 from '../../../../../common/srcimages/post_2.jpg'
-import image3 from '../../../../../common/srcimages/post_3.jpg'
 import './NewsList.css'
+import NewsListData from './NewsListData'
+import NewsListItem from './NewsListItem'
 
 const NewsList = () => {
     return (
@@ -20,6 +19,31 @@ const NewsList = () => {
                 </div>
             </div>
             <div className = "row">
+                <div className = "news-width">
+                {
+                    NewsListData.map(({
+                        id,
+                        postTitle,
+                        postText,
+                        postAuthor,
+                        postDate,
+                        postImage
+                    }) => (
+                        <div key = {id}>
+                            <NewsListItem
+                                postTitle = {postTitle}
+                                postText = {postText}
+                                postAuthor = {postAuthor}
+                                postDate = {postDate}
+                                postImage = {postImage}
+                            /> 
+                        </div>
+                        
+                    ))
+                }
+                </div> 
+            </div>
+            {/* <div className = "row">
                 <div className = "news-list">
                         <div className = "big-post">
                             <img src={image1}/>
@@ -57,7 +81,7 @@ const NewsList = () => {
                         <p className = "question">How did Van Gogh's Turbulent Mind Depict Concepts in Physics?</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
         
     )

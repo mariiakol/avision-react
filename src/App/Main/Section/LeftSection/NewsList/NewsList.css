@@ -126,6 +126,14 @@
 .margin-minus{
 	margin-top: 15px;
 }
+.news-width{
+	width: 838px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
 @media (max-width: 767px){
     .big-post, .big-post img, .question, .small-post-with-photo, 
 	.small-post-with-photo img, .border1, .border-with-background,

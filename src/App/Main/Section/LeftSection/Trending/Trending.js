@@ -3,6 +3,7 @@ import image5 from '../../../../../common/srcimages/post_5.jpg'
 import image9 from '../../../../../common/srcimages/post_9.jpg'
 import './Trending.css'
 import News from '../News/News'
+import NewsMenu from '../NewsMenu/NewsMenu'
 
 const Trending = () => {
     return (
@@ -15,25 +16,7 @@ const Trending = () => {
                         />
                     </div>
                     <div className = "col-md-9">
-                        <div className = "news-categories">
-                            <ul className = "topmenu">
-                                <li><a href="#" className = "">all</a></li>
-                                <li><a href="#" className = "">style hunter</a></li>
-                                <li><a href="#" className = "">vogue</a></li>
-                                <li><a href="#" className = "">health & fitness</a></li>
-                                <li><a href="#" className = "">travel</a></li>
-                                <li><a href="#" className = "drop">more</a>
-                                    <ul className = "submenu">
-                                        <li><a href=""></a>new look 2018</li>
-                                        <li><a href=""></a>street fashion</li>
-                                        <li><a href=""></a>business</li>
-                                        <li><a href=""></a>recipes</li>
-                                        <li><a href=""></a>sport</li>
-                                        <li><a href=""></a>celebrities</li>
-                                    </ul>
-                                </li>
-                                </ul>
-                        </div>
+                        <NewsMenu/>
                     </div>
                 </div>
                 <div className = "row">
