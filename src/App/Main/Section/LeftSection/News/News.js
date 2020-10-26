@@ -4,7 +4,6 @@ import './News.css'
 const News = (props) => {
     return (
         <div>
-            {/* <div className = "news">Don't Miss</div> */}
             <div className = "news">{props.title}</div>
             <div className = "line"></div> 
         </div>
