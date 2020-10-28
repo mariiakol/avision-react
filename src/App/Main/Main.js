@@ -5,14 +5,23 @@ import BlogPage from './BlogPage/BlogPage.js'
 import MainContent from './MainContent/MainContent.js'
 import Liked from './Liked/Liked'
 
-const Main = () => {
+const Main = ({
+    likedArticles,
+    likeArticle
+}) => {
     return(
         <div>
             <Route path = "/" exact render = {() => (
-                <MainContent/>
+                <MainContent 
+                likeArticle = {likeArticle}
+                />
             )}/>
             <Route path = "/BlogPage" component = {BlogPage}/>
-            <Route path = "/LikedArticles" component = {Liked}/>
+            <Route path = "/LikedArticles" render = {() => (
+                <Liked 
+                likedArticles = {likedArticles}
+                />
+            )}/>
 
         </div>
     )

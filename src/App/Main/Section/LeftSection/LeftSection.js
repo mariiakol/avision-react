@@ -8,11 +8,15 @@ import '../../../../common/common-styles.css'
 import LatestArticles from './LatestArticles/LatestArticles'
 
 
-const LeftSection = () => {
+const LeftSection = ({
+    likeArticle
+}) => {
     return (
         <div>
             <div className = "row">
-                <NewsList/>
+                <NewsList
+                    likeArticle = {likeArticle}
+                />
             </div> 
             <div className = "row">
                 <Trending/>

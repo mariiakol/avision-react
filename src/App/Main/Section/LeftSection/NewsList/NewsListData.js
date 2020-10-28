@@ -1,7 +1,7 @@
 const NewsListData = [
     {
         id:1,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A1 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_1.jpg",
@@ -9,7 +9,7 @@ const NewsListData = [
     },
     {
         id:2,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A2 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_2.jpg",
@@ -17,7 +17,7 @@ const NewsListData = [
     },
     {
         id:3,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A3 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_3.jpg",
@@ -25,7 +25,7 @@ const NewsListData = [
     },
     {
         id:4,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A4 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_4.jpg",
@@ -33,7 +33,7 @@ const NewsListData = [
     },
     {
         id:5,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A5 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_5.jpg",
@@ -41,7 +41,7 @@ const NewsListData = [
     },
     {
         id:6,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A6 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_6.jpg",
@@ -49,7 +49,7 @@ const NewsListData = [
     },
     {
         id:7,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A7 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_13.jpg",
@@ -57,7 +57,7 @@ const NewsListData = [
     },
     {
         id:8,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A8 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_8.jpg",
@@ -65,7 +65,7 @@ const NewsListData = [
     },
     {
         id:9,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
+        postTitle:"A9 How did Van Gogh's Turbulent Mind?",
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_9.jpg",

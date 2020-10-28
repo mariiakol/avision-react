@@ -5,7 +5,9 @@ import './NewsList.css'
 import NewsListData from './NewsListData'
 import NewsListItem from './NewsListItem'
 
-const NewsList = () => {
+const NewsList = ({
+    likeArticle
+}) => {
     return (
         <div className = "width100">
             <div className = "row row-menu">
@@ -31,11 +33,13 @@ const NewsList = () => {
                     }) => (
                         <div key = {id}>
                             <NewsListItem
+                                id = {id}
                                 postTitle = {postTitle}
                                 postText = {postText}
                                 postAuthor = {postAuthor}
                                 postDate = {postDate}
                                 postImage = {postImage}
+                                likeArticle = {likeArticle}
                             /> 
                         </div>
                         

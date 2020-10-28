@@ -2,11 +2,15 @@ import React from 'react'
 import Slider from '../Slider/Slider'
 import Section from '../Section/Section'
 
-const MainContent = () => {
+const MainContent = ({
+    likeArticle
+}) => {
     return (
         <div>
             <Slider/>
-            <Section/> 
+            <Section
+                likeArticle = {likeArticle}
+            /> 
         </div>
     )
 }

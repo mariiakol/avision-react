@@ -9,7 +9,8 @@ class App extends Component {
 
 	state = {
 		likedArticles:{
-			
+			// 1:0,
+			// 2:0
 		}
 	}
 
@@ -26,7 +27,10 @@ class App extends Component {
 		return (
 			<div>
 				<Header/>
-				<Main/>
+				<Main 
+					likedArticles = {this.state.likedArticles}
+					likeArticle = {this.likeArticle}
+				/>
 				<Footer/>
 			</div>	
 		)
