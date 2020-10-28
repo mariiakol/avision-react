@@ -3,6 +3,7 @@ import './Main.css'
 import { Route } from 'react-router-dom'
 import BlogPage from './BlogPage/BlogPage.js'
 import MainContent from './MainContent/MainContent.js'
+import Liked from './Liked/Liked'
 
 const Main = () => {
     return(
@@ -11,6 +12,8 @@ const Main = () => {
                 <MainContent/>
             )}/>
             <Route path = "/BlogPage" component = {BlogPage}/>
+            <Route path = "/LikedArticles" component = {Liked}/>
+
         </div>
     )
 }

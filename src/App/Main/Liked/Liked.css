@@ -1,0 +1,25 @@
+.likedArticles{
+    min-height: 440px;
+    padding-top: 30px;
+    background-image: url(/static/media/post.c431821b.jpg);
+}
+/* @media (max-width: 767px){
+	.likedArticles{
+        min-height: 440px;
+    }
+}
+@media (min-width: 768px){
+	.likedArticles{
+        min-height: 440px;
+    }
+}
+@media (min-width: 992px){
+	.likedArticles{
+        min-height: 440px;
+    }
+}
+@media (min-width: 1200px){
+	.likedArticles{
+        min-height: 440px;
+    }
+} */

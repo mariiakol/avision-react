@@ -14,7 +14,8 @@ const Menu = () => {
                     <li><a href="#" className = "link">Fashion</a></li>
                     <li><a href="#" className = "link">Gadgets</a></li>
                     <li><a href="#" className = "link">Lifestyle</a></li>
-                    <li><a href="#" className = "link">Video</a></li>
+                    {/* <li><a href="#" className = "link">Liked Articles</a></li> */}
+                    <Link to = "/LikedArticles" className = "link">Liked</Link>
                     <li><a href="#" className = "link">Contact</a></li>
                 </ul>
             </nav>

@@ -14,6 +14,7 @@ const NewsListItem = ({
                 <p className = "small-post-title padding-post">{postTitle}</p>
                 <p className = "post-text">{postText}</p>
                 <p className = "post-information padding-post"><span className = "author">{postAuthor}</span>{postDate}</p>
+                <button>Like</button>
             </div>
         </div>
     )
