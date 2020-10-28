@@ -1,9 +1,16 @@
 import React from 'react'
 import {keys} from 'lodash'
 import './Liked.css'
+import '../Section/LeftSection/NewsList/NewsList.css'
+import {getArticlesMap} from '../Section/LeftSection/NewsList/NewsListData'
+import NewsListData from '../Section/LeftSection/NewsList/NewsListData'
+import NewsListItem from '../Section/LeftSection/NewsList/NewsListItem'
+import NewsListItemExtended from '../Section/LeftSection/NewsList/NewsListItemExtended'
 
 const Liked = ({
-    likedArticles
+    likedArticles,
+    articlesObject = getArticlesMap(NewsListData),
+    CartItem = NewsListItemExtended
 }) => {
     return (
         <div className = "likedArticles">
@@ -16,9 +23,13 @@ const Liked = ({
                 <div className = "row">
                     {
                         keys(likedArticles).map((articleId) => (
-                            <div key = {articleId}> 
-                                {articleId}:{likedArticles[articleId]}
-                            </div>
+                            <CartItem
+                                article = {articlesObject[articleId]}
+                                key = {articleId}
+                            />
+                            // <div key = {articleId}> 
+                            //     {articleId}:{likedArticles[articleId]}
+                            // </div>
                         ))
                     }
                 </div>

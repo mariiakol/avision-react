@@ -9,8 +9,6 @@ class App extends Component {
 
 	state = {
 		likedArticles:{
-			// 1:0,
-			// 2:0
 		}
 	}
 

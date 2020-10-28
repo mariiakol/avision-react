@@ -74,4 +74,11 @@ const NewsListData = [
     
 ]
 
+export const getArticlesMap = (array) => {
+    return array.reduce((accObj,article) => ({
+        ...accObj,
+        [article.id]:article
+    }),{})
+}
+
 export default NewsListData
