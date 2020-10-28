@@ -1,7 +1,17 @@
 .likedArticles{
     min-height: 440px;
     padding-top: 30px;
+    padding-bottom: 15px;
     background-image: url(/static/media/post.c431821b.jpg);
+}
+.liked-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.liked-list-item{
+    margin-right: 20px;
 }
 /* @media (max-width: 767px){
 	.likedArticles{

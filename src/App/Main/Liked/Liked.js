@@ -21,17 +21,18 @@ const Liked = ({
                     </div>
                 </div>
                 <div className = "row">
-                    {
-                        keys(likedArticles).map((articleId) => (
-                            <CartItem
-                                article = {articlesObject[articleId]}
-                                key = {articleId}
-                            />
-                            // <div key = {articleId}> 
-                            //     {articleId}:{likedArticles[articleId]}
-                            // </div>
-                        ))
-                    }
+                    <div className = "liked-list">
+                        {
+                            keys(likedArticles).map((articleId) => (
+                                <div className = "liked-list-item" key = {articleId}>
+                                   <CartItem
+                                    article = {articlesObject[articleId]}
+                                    key = {articleId}
+                                /> 
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>
