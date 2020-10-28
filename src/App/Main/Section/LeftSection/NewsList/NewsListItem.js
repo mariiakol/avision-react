@@ -20,7 +20,7 @@ class NewsListItem extends Component {
                     <p className = "small-post-title padding-post">{postTitle}</p>
                     <p className = "post-text">{postText}</p>
                     <p className = "post-information padding-post"><span className = "author">{postAuthor}</span>{postDate}</p>
-                    <button onClick = {() => likeArticle(id)}>Like</button>
+                    <button onClick = {() => likeArticle(id)} className = "like-button">♡</button>
                 </div>
             </div>
         )

@@ -132,7 +132,17 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
+}
+.like-button{
+	margin-left: 25px;
+	margin-bottom: 25px;
+	border:none;
+	background-color: white;
+	outline: none;
+	cursor: pointer;
+}
+.like-button:hover{
+	color:#bbd7ea;
 }
 @media (max-width: 767px){
     .big-post, .big-post img, .question, .small-post-with-photo, 

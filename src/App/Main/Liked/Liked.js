@@ -16,7 +16,7 @@ const Liked = ({
                 <div className = "row">
                     {
                         keys(likedArticles).map((articleId) => (
-                            <div>
+                            <div key = {articleId}> 
                                 {articleId}:{likedArticles[articleId]}
                             </div>
                         ))
