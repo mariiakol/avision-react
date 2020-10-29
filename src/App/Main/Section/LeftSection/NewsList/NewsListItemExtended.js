@@ -1,7 +1,8 @@
 import React from 'react'
 
 const NewsListItemExtended = ({
-    article
+    article,
+    removeArticle
 }) => {
     return (
         <div>
@@ -10,7 +11,9 @@ const NewsListItemExtended = ({
                 <p className = "small-post-title padding-post">{article.postTitle}</p>
                 <p className = "post-text">{article.postText}</p>
                 <p className = "post-information padding-post"><span className = "author">{article.postAuthor}</span>{article.postDate}</p>
-                {/* <button onClick = {() => likeArticle(id)} className = "like-button">♡</button> */}
+                <button className = "like-button" 
+                    onClick = {() => removeArticle(article.id)}
+                >DELETE</button>
             </div>
         </div>
     )

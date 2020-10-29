@@ -3,13 +3,15 @@ import Slider from '../Slider/Slider'
 import Section from '../Section/Section'
 
 const MainContent = ({
-    likeArticle
+    likeArticle,
+    removeArticle
 }) => {
     return (
         <div>
             <Slider/>
             <Section
                 likeArticle = {likeArticle}
+                removeArticle = {removeArticle}
             /> 
         </div>
     )

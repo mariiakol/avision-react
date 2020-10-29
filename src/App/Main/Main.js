@@ -7,19 +7,22 @@ import Liked from './Liked/Liked'
 
 const Main = ({
     likedArticles,
-    likeArticle
+    likeArticle,
+    removeArticle
 }) => {
     return(
         <div>
             <Route path = "/" exact render = {() => (
                 <MainContent 
                 likeArticle = {likeArticle}
+                removeArticle = {removeArticle}
                 />
             )}/>
             <Route path = "/BlogPage" component = {BlogPage}/>
             <Route path = "/LikedArticles" render = {() => (
                 <Liked 
                 likedArticles = {likedArticles}
+                removeArticle = {removeArticle}
                 />
             )}/>
 

@@ -10,7 +10,8 @@ import NewsListItemExtended from '../Section/LeftSection/NewsList/NewsListItemEx
 const Liked = ({
     likedArticles,
     articlesObject = getArticlesMap(NewsListData),
-    CartItem = NewsListItemExtended
+    CartItem = NewsListItemExtended,
+    removeArticle
 }) => {
     return (
         <div className = "likedArticles">
@@ -28,6 +29,7 @@ const Liked = ({
                                    <CartItem
                                     article = {articlesObject[articleId]}
                                     key = {articleId}
+                                    removeArticle = {removeArticle}
                                 /> 
                                 </div>
                             ))

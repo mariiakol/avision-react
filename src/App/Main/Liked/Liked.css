@@ -5,10 +5,10 @@
     background-image: url(/static/media/post.c431821b.jpg);
 }
 .liked-list{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     justify-content: space-evenly;
 }
 .liked-list-item{

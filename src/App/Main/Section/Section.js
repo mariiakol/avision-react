@@ -6,7 +6,8 @@ import '../../../common/common-styles.css'
 import './Section.css'
 
 const Section  = ({
-    likeArticle
+    likeArticle,
+    removeArticle
 }) => {
     return (
         <div>
@@ -16,6 +17,7 @@ const Section  = ({
                         <div className = "col-md-9 padding">
                             <LeftSection 
                             likeArticle = {likeArticle}
+                            removeArticle = {removeArticle}
                             />
                         </div>
                         <div className = "col-md-3 center">

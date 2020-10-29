@@ -9,13 +9,15 @@ import LatestArticles from './LatestArticles/LatestArticles'
 
 
 const LeftSection = ({
-    likeArticle
+    likeArticle,
+    removeArticle
 }) => {
     return (
         <div>
             <div className = "row">
                 <NewsList
                     likeArticle = {likeArticle}
+                    removeArticle = {removeArticle}
                 />
             </div> 
             <div className = "row">

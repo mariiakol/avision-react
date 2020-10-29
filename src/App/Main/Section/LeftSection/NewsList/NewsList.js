@@ -6,7 +6,8 @@ import NewsListData from './NewsListData'
 import NewsListItem from './NewsListItem'
 
 const NewsList = ({
-    likeArticle
+    likeArticle,
+    removeArticle
 }) => {
     return (
         <div className = "width100">
@@ -40,6 +41,7 @@ const NewsList = ({
                                 postDate = {postDate}
                                 postImage = {postImage}
                                 likeArticle = {likeArticle}
+                                removeArticle = {removeArticle}
                             /> 
                         </div>
                         

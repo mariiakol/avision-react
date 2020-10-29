@@ -134,15 +134,24 @@
 	justify-content: space-between;
 }
 .like-button{
-	margin-left: 25px;
+	margin-left: 20px;
 	margin-bottom: 25px;
 	border:none;
 	background-color: white;
 	outline: none;
 	cursor: pointer;
+	font-weight: 600;
+	color: #124b71;
+	padding: 5px 5px;
+	border: 1px solid #124b71;
+	border-radius: 6px;
+	font-size: 12px;
+	line-height: 16px;
 }
 .like-button:hover{
-	color:#bbd7ea;
+	background-color:#bbd7ea;
+	color: white;
+	border: 1px solid #bbd7ea;
 }
 @media (max-width: 767px){
     .big-post, .big-post img, .question, .small-post-with-photo, 

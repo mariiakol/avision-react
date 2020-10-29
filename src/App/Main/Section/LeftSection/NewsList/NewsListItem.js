@@ -10,7 +10,8 @@ class NewsListItem extends Component {
             postText,
             postDate,
             postImage,
-            likeArticle
+            likeArticle,
+            removeArticle
         } = this.props;
         console.log(this);
         return (
@@ -20,7 +21,7 @@ class NewsListItem extends Component {
                     <p className = "small-post-title padding-post">{postTitle}</p>
                     <p className = "post-text">{postText}</p>
                     <p className = "post-information padding-post"><span className = "author">{postAuthor}</span>{postDate}</p>
-                    <button onClick = {() => likeArticle(id)} className = "like-button">♡</button>
+                    <button onClick = {() => likeArticle(id)} className = "like-button">LIKE ♡</button>
                 </div>
             </div>
         )

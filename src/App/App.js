@@ -20,6 +20,17 @@ class App extends Component {
 			}
 		}))
 	}
+
+	removeArticle = (articleId) => {
+		this.setState((prevState) => {
+			let prevLikedArticles = Object.assign({},prevState.likedArticles)
+			delete prevLikedArticles[articleId]
+
+			return {
+				likedArticles:prevLikedArticles
+			}
+		})
+	}
 	
 	render () {
 		return (
@@ -28,6 +39,7 @@ class App extends Component {
 				<Main 
 					likedArticles = {this.state.likedArticles}
 					likeArticle = {this.likeArticle}
+					removeArticle = {this.removeArticle}
 				/>
 				<Footer/>
 			</div>	
