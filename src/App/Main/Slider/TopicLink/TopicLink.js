@@ -5,10 +5,9 @@ import { Link } from 'react-router-dom'
 const TopicLink = () => {
     return (
         <div className = "topic-link">
-            {/* <a href="" className = "go-to-topic">Continue reading <span className = "arrow">→</span></a> */}
-            <Link to = "/BlogPage" className = "go-to-topic">
+            <p className = "go-to-topic">
                 Continue reading <span className = "arrow">→</span>
-            </Link>
+            </p>
         </div>
     )
 }

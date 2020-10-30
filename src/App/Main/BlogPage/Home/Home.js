@@ -2,9 +2,12 @@ import React from 'react'
 import TopicTitle from '../../Slider/TopicTitle/TopicTitle'
 import './Home.css'
 import TopicText from '../../Slider/TopicText/TopicText'
-import PageContent from '../PageContent/PageContent'
+import NewsListData,{getArticlesMap} from '../../Section/LeftSection/NewsList/NewsListData'
 
-const Home = () => {
+const Home = ({
+    match,
+    articlesObject = getArticlesMap(NewsListData)
+}) => {
     return (
         <div className = "home">
             <div className = "container">
@@ -16,7 +19,7 @@ const Home = () => {
                 <div className = "row">
                     <div className = "center">
                         <div className = "post-title-home">
-                            <TopicText/>
+                            <div className = "topic-text">{articlesObject[match.params.articleId]}</div>
                         </div>
                     </div>
                 </div>
