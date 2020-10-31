@@ -4,10 +4,10 @@ const PostTags = () => {
     return (
         <div className = "post-tags">
             <ul>
-                <li><a href="">Liberty</a></li>
-                <li><a href="">Manual</a></li>
-                <li><a href="">Interpretation</a></li>
-                <li><a href="">Recommendation</a></li>
+                <li><a href="/#">Liberty</a></li>
+                <li><a href="/#">Manual</a></li>
+                <li><a href="/#">Interpretation</a></li>
+                <li><a href="/#">Recommendation</a></li>
             </ul>
         </div>
     )

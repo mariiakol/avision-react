@@ -5,7 +5,7 @@ const FigurePost = () => {
     return (
         <div>
             <figure>
-                <img src={post}/>
+                <img src={post} alt = "Post"/>
                 <figcaption>Lorem Ipsum Dolor Sit Amet</figcaption>
             </figure>
         </div>

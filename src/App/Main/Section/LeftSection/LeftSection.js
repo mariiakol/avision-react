@@ -1,12 +1,9 @@
 import React from 'react'
-import News from './News/News'
-import NewsMenu from './NewsMenu/NewsMenu'
 import NewsList from './NewsList/NewsList'
 import Trending from './Trending/Trending.js'
 import Video from './Video/Video'
-import '../../../../common/common-styles.css'
 import LatestArticles from './LatestArticles/LatestArticles'
-
+import '../../../../common/common-styles.css'
 
 const LeftSection = ({
     likeArticle,

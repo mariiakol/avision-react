@@ -19,7 +19,8 @@ const Main = ({
                 />
             )}/>
             {/* <Route path = "/BlogPage" component = {BlogPage}/> */}
-            <Route path = "/Articles/:articleId" component = {BlogPage}/>
+            
+            <Route path = "/Articles/:articleId" component = {BlogPage} />
 
             <Route path = "/LikedArticles" render = {() => (
                 <Liked 

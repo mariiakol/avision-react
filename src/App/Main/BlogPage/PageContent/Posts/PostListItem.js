@@ -9,7 +9,7 @@ const PostListItem = ({
 }) => {
     return (
         <div className = "small-post-with-photo width-post">
-            <img src={image}/>
+            <img src={image} alt = "Post"/>
             <p className = "small-post-title padding-post">{title}</p>
             <p className = "post-information padding-post"><span className = "author-in-post">{author} </span> • {date}</p>
         </div> 

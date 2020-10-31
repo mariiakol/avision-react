@@ -1,6 +1,5 @@
 import React from 'react'
 import './Search.css'
-import logo from './cloud.png';
 
 const Search = () => {
     return (

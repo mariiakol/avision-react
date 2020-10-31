@@ -15,7 +15,7 @@ const Video = () => {
             </div>
             <div className = "video-container row">
                 <div className = "video">
-                    <iframe width="590" height="500" src="https://www.youtube.com/embed/UjYemgbhJF0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe title = "Video" width="590" height="500" src="https://www.youtube.com/embed/UjYemgbhJF0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
                 <VideosList/>
             </div>

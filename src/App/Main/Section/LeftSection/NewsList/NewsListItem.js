@@ -12,15 +12,12 @@ class NewsListItem extends Component {
             postDate,
             postImage,
             likeArticle,
-            removeArticle
         } = this.props;
-        console.log(this);
         return (
             <div>
                 <div className = "small-post-with-photo">
-                    <img src={postImage}/>
+                    <img src={postImage} alt = "Post"/>
                     <p className = "small-post-title padding-post">
-                       {/* <Link to = {`/BlogPage/Articles/${id}`}>{postTitle}</Link>  */}
                        <Link to = {`/Articles/${id}`}>{postTitle}</Link> 
                     </p>
                     <p className = "post-text">{postText}</p>

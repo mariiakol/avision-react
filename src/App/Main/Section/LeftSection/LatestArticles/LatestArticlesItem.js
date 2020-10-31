@@ -9,7 +9,7 @@ const LatestArticlesItem = ({
     return (
         <div>
              <div className = "small-post-with-photo photo margin-post margin-left margin-top-bottom">
-                <img src={postImage}/>
+                <img src={postImage} alt="Post"/>
                 <p className = "small-post-title padding-post">{postTitle}</p>
                 <p className = "post-information padding-post"><span className = "author">{postAuthor}</span>{postDate}</p>
             </div>

@@ -12,7 +12,7 @@ const VideosListItem = ({
             <div className = "row">
                 <div className = "col-md-2">
                     <div className = "video-image">
-                        <img src={image}/>
+                        <img src={image} alt="Video"/>
                         <div className = "play-icon"></div>
                     </div>
                 </div>

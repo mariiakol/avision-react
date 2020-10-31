@@ -1,11 +1,10 @@
 import React from 'react'
 import {keys} from 'lodash'
-import './Liked.css'
-import '../Section/LeftSection/NewsList/NewsList.css'
 import {getArticlesMap} from '../Section/LeftSection/NewsList/NewsListData'
 import NewsListData from '../Section/LeftSection/NewsList/NewsListData'
-import NewsListItem from '../Section/LeftSection/NewsList/NewsListItem'
 import NewsListItemExtended from '../Section/LeftSection/NewsList/NewsListItemExtended'
+import './Liked.css'
+import '../Section/LeftSection/NewsList/NewsList.css'
 
 const Liked = ({
     likedArticles,

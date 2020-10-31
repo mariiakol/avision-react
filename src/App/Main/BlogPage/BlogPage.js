@@ -1,16 +1,13 @@
 import React from 'react'
 import NewsListData, { getArticlesMap } from '../Section/LeftSection/NewsList/NewsListData'
+import PageContent from './PageContent/PageContent'
 import './BlogPage.css'
 import '../BlogPage/Home/Home.css'
-import PageContent from './PageContent/PageContent'
-import TopicTitle from '../Slider/TopicLink/TopicLink'
 
 const BlogPage = ({
     match,
     articlesObject = getArticlesMap(NewsListData)
 }) => {
-    console.log(match)
-    console.log(articlesObject)
     return (
         <div className = "page-content">
            <div className = "home">

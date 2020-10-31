@@ -1,6 +1,5 @@
 import React from 'react'
 import './TopicLink.css'
-import { Link } from 'react-router-dom'
 
 const TopicLink = () => {
     return (

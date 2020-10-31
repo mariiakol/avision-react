@@ -11,7 +11,7 @@ const StoriesListItem = ({
             <div className = "row">
                 <div className = "col-md-3">
                     <div className = "side-post-image">
-                        <img src={image}/>
+                        <img src={image} alt="Stories post"/>
                     </div>
                 </div>
                 <div className = "col-md-9">
