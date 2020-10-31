@@ -9,7 +9,7 @@ class App extends Component {
 
 	state = {
 		likedArticles:{
-		}
+		},
 	}
 
 	likeArticle = (articleId) => {

@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 
 class NewsListItem extends Component {
 
+    renderLike() {
+        if(this.props.isLiked){
+            this.props.likeArticle(this.props.id)
+        }
+    }
+
     render() {
         const {
             id,
@@ -11,7 +17,7 @@ class NewsListItem extends Component {
             postText,
             postDate,
             postImage,
-            likeArticle,
+            likeArticle
         } = this.props;
         return (
             <div>
