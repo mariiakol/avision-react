@@ -30,6 +30,9 @@
     .news-margin {
         margin-top: 30px;
     }
+    .post-bg{
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 768px) {

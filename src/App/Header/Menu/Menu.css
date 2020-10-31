@@ -18,10 +18,71 @@
 .menu a:hover{
 	color: #185c90;
 }
+.nav-mobile-menu {
+    display: none;
+}
+
 @media (max-width: 767px){
     .hidden-menu{
 		opacity: 1;
-		visibility: hidden;
+	}
+	.menu {
+		opacity: 0;
+	}
+	.active{
+		opacity: 1;
+	}
+	.menu .active {
+		opacity: 1;
+	}
+	.menu{
+		background-color: #bad7ea;
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		transform: translateX(150%);
+		margin-top: 30px;
+		width: 100px;
+	}
+	.menu li, .menu li a, .menu a {
+		margin: 5px 0 5px 0
+	}
+	.nav-mobile-menu {
+		display: block;
+		width: 15px;
+		height: 15px;
+		position: relative;
+		left: 230px;
+    	bottom: 223px;
+	}
+	.nav-mobile-menu span{
+		height: 1px;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		right: 0;
+		transition: .25s ease-in-out;
+		cursor: pointer;
+	}
+	.nav-mobile-menu span:nth-child(1){
+		top: 3px;
+	}
+	.nav-mobile-menu span:nth-child(2){
+		top: 7px;
+	}
+	.nav-mobile-menu span:nth-child(3){
+		bottom: 3px;
+	}
+	.nav-mobile-menu .active span:nth-child(1){
+		top: 50%;
+		transform: rotate(45deg);
+	}
+	.nav-mobile-menu .active span:nth-child(2){
+		top: 50%;
+		transform: rotate(-45deg);
+	}
+	.nav-mobile-menu .active span:nth-child(3){
+		transform: scale(0);
 	}
 }
 @media (min-width: 768px) {

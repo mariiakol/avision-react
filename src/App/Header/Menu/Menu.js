@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import './Menu.css'
 
 const Menu = () => {
+    const [menuActive, setMenuActive] = useState(false)
     return (
         <div>
             <nav className = "navigation hidden-menu">
-                <ul className = "menu" id = "nav">
+                <ul className = {menuActive === true ? 'menu active' : 'menu'} id = "nav">
                     <li>
                         <a href="/#" className = "link">Home</a>
                     </li>
@@ -17,6 +18,11 @@ const Menu = () => {
                     <li><a href="/#" className = "link">Contact</a></li>
                 </ul>
             </nav>
+            <div className = "nav-mobile-menu" onClick = {() => setMenuActive(!menuActive)} >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     )
 }
