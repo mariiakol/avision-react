@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import { Route } from 'react-router-dom'
+import ScrollToTop from 'react-router-scroll-top'
 import BlogPage from './BlogPage/BlogPage.js'
 import MainContent from './MainContent/MainContent.js'
 import Liked from './Liked/Liked'
@@ -18,9 +19,10 @@ const Main = ({
                 removeArticle = {removeArticle}
                 />
             )}/>
-            {/* <Route path = "/BlogPage" component = {BlogPage}/> */}
-            
-            <Route path = "/Articles/:articleId" component = {BlogPage} />
+
+            <ScrollToTop>
+                <Route path = "/Articles/:articleId" component = {BlogPage} />
+            </ScrollToTop>
 
             <Route path = "/LikedArticles" render = {() => (
                 <Liked 
