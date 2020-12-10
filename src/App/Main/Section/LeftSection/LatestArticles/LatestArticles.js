@@ -4,12 +4,9 @@ import News from '../News/News'
 import LatestArticlesItem from './LatestArticlesItem'
 import LatestArticlesData from './LatestArticlesData'
 
-const LatestArticles = ({
-    handleShowMorePosts,
-    postsToRender
-}) => {
+const LatestArticles = () => {
     return (
-        <div className = "padding">
+        <div className = "padding articles">
             <div className = "row">
                 <div className = "col-md-3">
                     <News
@@ -20,7 +17,7 @@ const LatestArticles = ({
             <div className = "row">
                 <div className = "news-width">
                 {
-                     postsToRender.map(({
+                     LatestArticlesData.map(({
                         id,
                         postTitle,
                         postAuthor,
@@ -39,11 +36,6 @@ const LatestArticles = ({
                     ))
                 }
                 </div> 
-            </div>
-            <div className = "row">
-                <div className = "load-more">
-                    <button className = "button" onClick={handleShowMorePosts}>Load More</button>
-                </div>
             </div>
         </div>
     )

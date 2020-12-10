@@ -40,29 +40,7 @@ const NewsListData = [
         postAuthor:"Katy Liu ",
         postDate: "• Sep 29, 2017 at 9:48 am",
         postImage:"/images/post_6.jpg",
-    },
-    {
-        id:7,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
-        postAuthor:"Katy Liu ",
-        postDate: "• Sep 29, 2017 at 9:48 am",
-        postImage:"/images/post_1.jpg",
-    },
-    {
-        id:8,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
-        postAuthor:"Katy Liu ",
-        postDate: "• Sep 29, 2017 at 9:48 am",
-        postImage:"/images/post_2.jpg",
-    },
-    {
-        id:9,
-        postTitle:"How did Van Gogh's Turbulent Mind?",
-        postAuthor:"Katy Liu ",
-        postDate: "• Sep 29, 2017 at 9:48 am",
-        postImage:"/images/post_3.jpg",
-    },
-    
+    },    
 ]
 
 export default NewsListData

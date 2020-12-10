@@ -3,7 +3,6 @@ import image5 from '../../../../../common/srcimages/post_5.jpg'
 import image9 from '../../../../../common/srcimages/post_9.jpg'
 import './Trending.css'
 import News from '../News/News'
-import NewsMenu from '../NewsMenu/NewsMenu'
 
 const Trending = () => {
     return (

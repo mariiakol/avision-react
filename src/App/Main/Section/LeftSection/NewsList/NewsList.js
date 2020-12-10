@@ -1,16 +1,13 @@
 import React from 'react'
 import News from '../News/News'
-import NewsMenu from '../NewsMenu/NewsMenu.js'
 import './NewsList.css'
-import NewsListData from './NewsListData'
 import NewsListItem from './NewsListItem'
-
-const postsPerPage = 3;
-let arrayForHoldingPosts = [];
 
 const NewsList = ({
     likeArticle,
     removeArticle,
+    handleShowMorePosts,
+    postsToRender
 }) => {
 
     return (
@@ -28,7 +25,7 @@ const NewsList = ({
             <div className = "row">
                 <div className = "news-width">
                 {
-                    NewsListData.map(({
+                    postsToRender.map(({
                         id,
                         postTitle,
                         postText,
@@ -55,7 +52,7 @@ const NewsList = ({
             </div>
             <div className = "row">
                 <div className = "load-more">
-                    <button className = "button">Load More</button>
+                    <button className = "button" onClick={handleShowMorePosts}>Load More</button>
                 </div>
             </div>
         </div>

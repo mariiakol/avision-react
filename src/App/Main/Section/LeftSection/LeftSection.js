@@ -3,8 +3,8 @@ import NewsList from './NewsList/NewsList'
 import Trending from './Trending/Trending.js'
 import Video from './Video/Video'
 import LatestArticles from './LatestArticles/LatestArticles'
-import LatestArticlesData from './LatestArticles/LatestArticlesData'
 import '../../../../common/common-styles.css'
+import NewsListData from './NewsList/NewsListData'
 
 const postsPerPage = 3;
 let arrayForHoldingPosts = [];
@@ -18,7 +18,7 @@ const LeftSection = ({
   const [next, setNext] = useState(3);
 
   const loopWithSlice = (start, end) => {
-    const slicedPosts = LatestArticlesData.slice(start, end);
+    const slicedPosts = NewsListData.slice(start, end);
     arrayForHoldingPosts = [...arrayForHoldingPosts, ...slicedPosts];
     setPostsToShow(arrayForHoldingPosts);
   };
@@ -37,6 +37,8 @@ const LeftSection = ({
                 <NewsList
                     likeArticle = {likeArticle}
                     removeArticle = {removeArticle}
+                    postsToRender={postsToShow}
+                    handleShowMorePosts = {handleShowMorePosts}
                 />
             </div> 
             <div className = "row">
@@ -46,10 +48,7 @@ const LeftSection = ({
                 <Video/>
             </div>
             <div className = "row">
-                <LatestArticles
-                    postsToRender={postsToShow}
-                    handleShowMorePosts = {handleShowMorePosts}
-                />
+                <LatestArticles/>
             </div>
         </div>
     )
