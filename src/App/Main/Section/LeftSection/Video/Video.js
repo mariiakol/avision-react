@@ -8,9 +8,9 @@ const Video = () => {
         <div className = "padding">
             <div className = "row">
                 <div className = "col-md-3">
-                <News
+                {/* <News
                         title =  "Most Popular Videos"
-                    />
+                    /> */}
                 </div>
             </div>
             <div className = "video-container row">

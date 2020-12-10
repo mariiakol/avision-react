@@ -15,9 +15,9 @@ const Trending = () => {
                             title = "Trending"
                         />
                     </div>
-                    <div className = "col-md-9">
+                    {/* <div className = "col-md-9">
                         <NewsMenu/>
-                    </div>
+                    </div> */}
                 </div>
                 <div className = "row">
                     <div className = "news-list minus-top">

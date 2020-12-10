@@ -26,6 +26,7 @@ const LatestArticles = () => {
                     }) => (
                         <div key = {id}>
                             <LatestArticlesItem
+                                id = {id}
                                 postTitle = {postTitle}
                                 postAuthor = {postAuthor}
                                 postDate = {postDate}

@@ -17,9 +17,9 @@ const NewsList = ({
                         title = "Don't Miss"
                     />
                 </div>
-                <div className = "col-md-9">
+                {/* <div className = "col-md-9">
                     <NewsMenu/>
-                </div>
+                </div> */}
             </div>
             <div className = "row">
                 <div className = "news-width">
