@@ -35,7 +35,6 @@ class App extends Component {
 	componentDidMount() {
 		document.title = 'AVISION';
 	}
-
 	
 	render () {
 		return (

@@ -5,10 +5,14 @@ import './NewsList.css'
 import NewsListData from './NewsListData'
 import NewsListItem from './NewsListItem'
 
+const postsPerPage = 3;
+let arrayForHoldingPosts = [];
+
 const NewsList = ({
     likeArticle,
-    removeArticle
+    removeArticle,
 }) => {
+
     return (
         <div className = "width100">
             <div className = "row row-menu">
@@ -48,6 +52,11 @@ const NewsList = ({
                     ))
                 }
                 </div> 
+            </div>
+            <div className = "row">
+                <div className = "load-more">
+                    <button className = "button">Load More</button>
+                </div>
             </div>
         </div>
         

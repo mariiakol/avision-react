@@ -11,6 +11,7 @@ const Main = ({
     likeArticle,
     removeArticle
 }) => {
+
     return(
         <div>
             <Route path = "/" exact render = {() => (
