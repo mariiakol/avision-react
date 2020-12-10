@@ -3,6 +3,7 @@
     padding-top: 30px;
     padding-bottom: 15px;
     background-image: url(/static/media/post.c431821b.jpg);
+    min-height: calc(100vh - 275px);
 }
 .liked-list{
     width: 100%;
@@ -15,7 +16,9 @@
     margin-right: 20px;
 }
 @media (max-width: 767px){
-
+    .topic-text{
+        font-size: 27px;
+    }
 }
 @media (min-width: 768px){
 	.liked-list-item{
