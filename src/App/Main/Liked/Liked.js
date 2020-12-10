@@ -17,7 +17,7 @@ const Liked = ({
             <div className = "container">
                 <div className = "row">
                     <div className = "center">
-                        <h1 className = "topic-text">LIKED ARTICLES</h1> 
+                        <h1 className = "topic-text">FAVORITE ARTICLES</h1> 
                     </div>
                 </div>
                 <div className = "row">

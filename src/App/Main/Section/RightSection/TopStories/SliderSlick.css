@@ -7,12 +7,18 @@
     width: 300px;
 }
 .slick-prev {
-    left: 216px;
+    /* left: 216px; */
+    left: 67%;
     top: -5%;
+    width: 11px;
+    height: 11px;
 }
 .slick-next{
     top: -5%;
-    right: -23px;
+    /* right: -23px; */
+    right: -13%;
+    width: 11px;
+    height: 11px;
 }
 .slider-color{
     background-color: black;
@@ -22,7 +28,7 @@
     background-color: white;
 }
 .slick-dots {
-    bottom: 374px;
+    bottom: 370px;
     text-align: end;
 }
 .slick-dots li {
@@ -46,7 +52,7 @@
         right: 11px;
     }
     .slick-dots {
-        bottom: 374px;
+        bottom: 370px;
         text-align: end;
         left: -33px;
     }
